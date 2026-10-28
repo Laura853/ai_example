@@ -227,3 +227,30 @@ Se trocar para outro modelo, use o mesmo nome baixado pelo comando `ollama pull`
 - A página `/` usa Spring AI com memória simples em memória da aplicação.
 - O endpoint `/rag/generate` demonstra uma consulta com RAG usando um documento local e um vector store simples.
 - O projeto depende do Ollama em execução local para responder as chamadas de IA.
+
+
+
+
+## Prints dos Endpoints
+- Modelos usados:
+- chat model = qwen3:0.6b;
+- embedding model =  nomic-embed-text
+
+- Chatbot em localhost:8080
+    
+<img width="1910" height="1078" alt="Captura de tela 2026-10-27 233555" src="https://github.com/user-attachments/assets/d6f79cc1-2e5f-41ca-90c0-4e686b6e92c9" />
+
+- springai/generate
+  
+<img width="1917" height="1078" alt="Captura de tela 2026-10-27 233634" src="https://github.com/user-attachments/assets/5d784b42-ac32-4246-bfab-b8b26d6f3bf9" />
+
+- langchain4j/generate
+  
+<img width="1912" height="1077" alt="Captura de tela 2026-10-27 233948" src="https://github.com/user-attachments/assets/50ddc751-8061-4eb3-9fb1-6266ce0be513" />
+
+ - rag/generate
+   
+<img width="1902" height="1078" alt="Captura de tela 2026-10-27 233924" src="https://github.com/user-attachments/assets/51204e73-ccf8-4529-8389-9ef650767ff4" />
+
+
+
